@@ -6,7 +6,7 @@ import { Text } from 'react-native';
 const ButonCalculator = (value, textInput, setTextInput, setCuloareText, setTextRezultat) => {
   
   const semneOperatii = ['*', '%', '*', '/', '^', '.']
-  const toateSemnele = ['*', '%', '*', '/', '^', '.', '+', '-', '⌫', 'C', '.', '=']
+  const toateSemnele  = ['*', '%', '*', '/', '^', '.', '+', '-', '⌫', 'C', '.', '=']
 
   const handleOnPress = () => {
 

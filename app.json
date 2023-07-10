@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "CalculatorRN",
-    "slug": "CalculatorRN",
-    "version": "1.0.0",
+    "slug": "Calculator",
+    "version": "7.7.7",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,6 +18,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "eu.badeacristian.calculator",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "363d1828-8fa2-496e-96de-82f5ba28a37f"
+      }
     }
   }
 }

@@ -1,6 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
-import { Text, View } from 'react-native';
+import { StatusBar, Text, View } from 'react-native';
 import stylesApp from './components/StylesApp';
 import ButonCalculator from './components/ButonCalculator';
 
@@ -54,7 +53,7 @@ export default function App() {
   return (
     <View style={stylesApp.containerPrincipal}>
 
-      <StatusBar style="auto" /> 
+      <StatusBar style="auto" backgroundColor={"#232B2B"} barStyle={'light-content'}> </StatusBar>
 
       <View style={stylesApp.containerEcran}>
         <Text style={[stylesApp.textInput, { color: culoareText }]}> {textInput} </Text>
