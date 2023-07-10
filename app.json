@@ -19,7 +19,7 @@
     },
     "android": {
       "package": "eu.badeacristian.calculator",
-      "versionCode": 1,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -30,7 +30,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "363d1828-8fa2-496e-96de-82f5ba28a37f"
+        "projectId": "86fcf38a-b4f5-425f-99c9-6470c25e02ed"
       }
     }
   }

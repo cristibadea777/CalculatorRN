@@ -27,7 +27,9 @@ export default function App() {
           if(textInput.includes('^')){
             text = textInput.replaceAll('^', '**') 
           }
-          let rezultat = eval(text).toFixed(2)
+          let rezultat = (function() {
+            return Function(`return ${text}`)();
+          })().toFixed(2);
           setTextRezultat(rezultat.toString())
         } catch (error) {
           setTextRezultat(textRezultat)
